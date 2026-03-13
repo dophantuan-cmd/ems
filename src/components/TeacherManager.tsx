@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Teacher, Subject, Shift } from '../types';
-import { safeArray } from '../src/utils';
+import { safeArray } from '../utils';
 import ExcelJS from 'exceljs';
 import { saveAs } from 'file-saver';
 
